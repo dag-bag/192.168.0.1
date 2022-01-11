@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home {
@@ -22,7 +23,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav select {
   font-size: 17px;
@@ -321,4 +321,18 @@ nav *:nth-child(2) {
   width: 70%;
   margin: auto;
   padding: 1rem;
+}
+
+.internetSettingHomePage .box .connection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.internetSettingHomePage .box .connection ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.internetSettingHomePage .box .connection ul li {
+  margin: 0 1rem;
 }
